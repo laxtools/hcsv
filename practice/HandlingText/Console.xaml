@@ -1,12 +1,16 @@
-﻿<Window x:Class="HandlingText.MainWindow"
+﻿<Window x:Class="HandlingText.Console"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HandlingText"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Console" Height="372" Width="594">
     <Grid>
-
+        <RichTextBox Margin="10,10,26,21">
+            <FlowDocument>
+                <Paragraph FontSize="12">Hello, world!</Paragraph>
+            </FlowDocument>
+        </RichTextBox>
     </Grid>
 </Window>
